@@ -1,0 +1,38 @@
+{
+  "name": "chainable-check",
+  "description": "Creates a validator with the same requiredness behaviour as React.PropTypes validators",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "standalone": "chainableCheck",
+  "homepage": "https://github.com/insin/chainable-check",
+  "license": "MIT",
+  "author": "Jonny Buchanan",
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {
+    "browserify": "^7.0.0",
+    "del": "^1.1.0",
+    "gulp": "^3.8.10",
+    "gulp-header": "^1.2.2",
+    "gulp-jshint": "^1.9.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-react": "^2.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^1.0.2",
+    "gulp-util": "^3.0.1",
+    "jshint-stylish": "^1.0.0",
+    "tape": "^3.0.3",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "scripts": {
+    "debug": "gulp --debug",
+    "dist": "gulp bundle-js --production",
+    "test": "gulp lint-js && tape test/*.js",
+    "watch": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/insin/chainable-check.git"
+  }
+}

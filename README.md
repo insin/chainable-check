@@ -1,4 +1,4 @@
-## `chainableCheck()`
+## `chainableCheck()` [![travis status](https://secure.travis-ci.org/insin/chainable-check.png)](http://travis-ci.org/insin/chainable-check)
 
 Creates a validation function with the same requiredness behaviour as React's
 [`React.PropTypes`](http://facebook.github.io/react/docs/reusable-components.html#prop-validation)

@@ -1,7 +1,7 @@
 ## `chainableCheck()` [![travis status](https://secure.travis-ci.org/insin/chainable-check.png)](http://travis-ci.org/insin/chainable-check)
 
-Creates a validation function with the same requiredness behaviour as React's
-[`React.PropTypes`](http://facebook.github.io/react/docs/reusable-components.html#prop-validation)
+Wraps a custom validation function with the same requiredness behaviour as
+React's [`React.PropTypes`](http://facebook.github.io/react/docs/reusable-components.html#prop-validation)
 validators.
 
 That is: the validaton function will not be called if the value it's supposed to
